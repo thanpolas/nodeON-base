@@ -44,6 +44,10 @@ Constructors and methods exposed:
 
 **[[⬆]](#TOC)**
 
+## TODO
+
+* Check on logging facilities and how they'll pipe.
+
 ## Release History
 
 - **v0.1.1**, *15 Aug 2014*
