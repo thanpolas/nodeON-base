@@ -1,11 +1,10 @@
 {
-  "private": true,
-  "name": "__proto__",
+  "name": "nodeon-base",
   "version": "0.0.0",
-  "main": "./lib/__proto__",
-  "description": "EDIT",
-  "homepage": "https://github.com/thanpolas/__proto__",
-  "bugs": "https://github.com/thanpolas/__proto__/issues",
+  "main": "./lib/lib",
+  "description": "The nodeON Base modules to inherit from.",
+  "homepage": "https://github.com/thanpolas/nodeON-base",
+  "bugs": "https://github.com/thanpolas/nodeON-base/issues",
   "author": {
     "name": "Thanasis Polychronakis",
     "email": "thanpolas@gmail.com",
@@ -13,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thanpolas/__proto__"
+    "url": "https://github.com/thanpolas/nodeON-base"
   },
   "licenses": [
     {
