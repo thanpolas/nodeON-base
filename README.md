@@ -27,6 +27,7 @@ Constructors and methods exposed:
 * `base.ModelRedisBase` Base Ctor for Redis Model, make sure to define options.
 * `base.ModelMongoBase` Base Ctor for Mongo Models using Mongoose.
 * `base.ModelPostgresBase` Base Ctor for Postgres Models using Sequelize.
+* `base.MiddlewareBase` Base Ctor for Middleware.
 * `base.options(opts)` Look at [Available Options](#available-options).
 
 ### Available Options

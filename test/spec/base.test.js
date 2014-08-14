@@ -14,6 +14,7 @@ describe('Base API Surface', function() {
     expect(base.ModelRedisBase).to.be.a('function');
     expect(base.ModelMongoBase).to.be.a('function');
     expect(base.ModelPostgresBase).to.be.a('function');
+    expect(base.MiddlewareBase).to.be.a('function');
     expect(base.options).to.be.a('function');
   });
 });
