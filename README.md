@@ -1,41 +1,45 @@
-# __proto__
+# nodeON-base
 
-> Clone, edit, hack. An opinionated boilerplate for Node Libraries.
+> The nodeON Base modules to inherit from.
 
-[![Build Status](https://secure.travis-ci.org/thanpolas/__proto__.png?branch=master)](http://travis-ci.org/thanpolas/__proto__)
+[![Build Status](https://secure.travis-ci.org/thanpolas/nodeON-base.png?branch=master)](http://travis-ci.org/thanpolas/nodeON-base)
 
-To use, simply Clone, Enter directory, delete `.git` folder and start over:
-
-```shell
-git clone git@github.com:thanpolas/__proto__.git
-cd __proto__
-rm -rf .git
-git init
-git add .
-git commit "Boot!"
-```
-
-Boilerplate OSS follows...
 
 ## Install
 
 Install the module using NPM:
 
 ```
-npm install YADDAYADDA --save
+npm install nodeon-base --save
 ```
+
 ## <a name='TOC'>Table of Contents</a>
 
-1. [Overview](#overview)
 1. [API](#api)
-
-## Overview
-
-Lorem ipsum trololol.
 
 ## API
 
-One more to go back without onez has together we know!
+Constructors and methods exposed:
+
+* `base.EntityBase` Base Ctor for Entities.
+* `base.ControllerBase` Base Ctor for Controllers.
+* `base.ModelBase` Base Ctor for Models.
+* `base.ModelRedisBase` Base Ctor for Redis Model, make sure to define options.
+* `base.ModelMongoBase` Base Ctor for Mongo Models using Mongoose.
+* `base.ModelPostgresBase` Base Ctor for Postgres Models using Sequelize.
+* `base.options(opts)` Look at [Available Options](#available-options).
+
+### Available Options
+
+`base.options(opts)` Accepts the following key value pairs:
+
+* `redis` And Object containing:
+    * `namespace` **string** The namespace to prepend all keys with.
+    * `port` **string** Connection port.
+    * `host` **string** Hostname to connect to.
+    * `pass` **string** Password to use.
+    * `options` **Object** Options to pass to the redis client.
+* `isHeroku` **boolean** Set to true if environment is Heroku.
 
 **[[⬆]](#TOC)**
 
