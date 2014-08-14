@@ -45,7 +45,7 @@ Constructors and methods exposed:
 
 ## Release History
 
-- **v0.0.1**, *15 Aug 2014*
+- **v0.1.1**, *15 Aug 2014*
     - Big Bang
 
 ## License
