@@ -43,27 +43,9 @@ Constructors and methods exposed:
 
 **[[⬆]](#TOC)**
 
-### <a name='toApi'>Getting an API Safe verison</a>
-
-> ### errInstance.toApi()
->
-> *Returns* `Object` A sanitized object.
-
-Clones the error object and strips it of all the `Error` getters (like `stack`) and the following attributes:
-    
-    * `srcError`
-
-```js
-var appErr = require('nodeon-error');
-
-var error = new appErr.Error();
-
-console.log(error.toApi());
-```
-
 ## Release History
 
-- **v0.0.1**, *TBD*
+- **v0.0.1**, *15 Aug 2014*
     - Big Bang
 
 ## License
