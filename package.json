@@ -24,10 +24,10 @@
   },
   "dependencies": {
     "cip": "~0.2.5",
-    "bluebird": "~2.3.0",
+    "bluebird": "~2.3.5",
     "lodash": "~2.4.1",
     "nodeon-error": "^0.1.0",
-    "node-entity": "^0.3.0",
+    "node-entity": "^0.3.1",
     "redis": "^0.12.1",
     "logg": "^0.3.0"
   },
@@ -35,10 +35,10 @@
     "grunt-release": "~0.7.0",
     "grunt-contrib-jshint": "^0.10.0",
     "load-grunt-tasks": "~0.6.0",
-    "mocha": "~1.21.4",
-    "grunt-mocha-test": "~0.11.0",
+    "mocha": "~1.21.5",
+    "grunt-mocha-test": "~0.12.1",
     "grunt": "~0.4.5",
-    "chai": "~1.9.1",
+    "chai": "~1.9.2",
     "sinon": "~1.10.3",
     "grunt-cli": "^0.1.13"
   }
