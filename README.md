@@ -50,7 +50,7 @@ Constructors and methods exposed:
 
 ## Release History
 
-- **v0.1.5**, *31 Oct 2014*
+- **v0.1.6**, *31 Oct 2014*
     - Fixed config options propagation.
 - **v0.1.4**, *12 Oct 2014*
     - Added method `show404()` on Controller base to show a 404 page depending on the accepts request header.
