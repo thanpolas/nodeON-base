@@ -51,7 +51,7 @@ Constructors and methods exposed:
 
 ## Release History
 
-- **v0.1.7**, *09 Dec 2014*
+- **v0.1.8**, *09 Dec 2014*
     - Better handling of Mongoose duplicate errors.
         - Augmented with which is the offending index.
     - Now throws the original Error vs the "toApi()" version so Crude can handle properly.
