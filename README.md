@@ -41,6 +41,7 @@ Constructors and methods exposed:
     * `pass` **string** Password to use.
     * `options` **Object** Options to pass to the redis client.
 * `isHeroku` **boolean** Set to true if environment is Heroku.
+* `errorName` **string** How to sign all generated error names, this is a prefix.
 
 **[[⬆]](#TOC)**
 
