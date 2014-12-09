@@ -51,6 +51,11 @@ Constructors and methods exposed:
 
 ## Release History
 
+- **v0.1.7**, *09 Dec 2014*
+    - Better handling of Mongoose duplicate errors.
+        - Augmented with which is the offending index.
+    - Now throws the original Error vs the "toApi()" version so Crude can handle properly.
+    - Accepts the `errorName` config parameter for signing generated errors.
 - **v0.1.6**, *31 Oct 2014*
     - Fixed config options propagation.
 - **v0.1.4**, *12 Oct 2014*
