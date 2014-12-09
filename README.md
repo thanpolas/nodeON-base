@@ -51,7 +51,8 @@ Constructors and methods exposed:
 
 ## Release History
 
-- **v0.1.8**, *09 Dec 2014*
+- **v0.1.9**, *09 Dec 2014*
+    - Handle 'record not found' mongoose error cases.
     - Better handling of Mongoose duplicate errors.
         - Augmented with which is the offending index.
     - Now throws the original Error vs the "toApi()" version so Crude can handle properly.
