@@ -51,6 +51,8 @@ Constructors and methods exposed:
 
 ## Release History
 
+- **v0.2.3**, *16 Dec 2014*
+    - Debug log the intercepted error's stack
 - **v0.2.2**, *16 Dec 2014*
     - Better handling for objectId type of errors.
 - **v0.2.0**, *16 Dec 2014*
