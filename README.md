@@ -51,6 +51,8 @@ Constructors and methods exposed:
 
 ## Release History
 
+- **v0.2.1**, *16 Dec 2014*
+    - Better handling for objectId type of errors.
 - **v0.2.0**, *16 Dec 2014*
     - Upgraded all packages to latest, with the intend to get the `nodeon-error` 0.2.x series.
 - **v0.1.9**, *09 Dec 2014*
