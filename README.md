@@ -51,6 +51,8 @@ Constructors and methods exposed:
 
 ## Release History
 
+- **v0.3.0**, *21 Apr 2015*
+    - Updated entity Mongoose error interception to match new attribute names in Mongoose 4.x
 - **v0.2.3**, *16 Dec 2014*
     - Debug log the intercepted error's stack
 - **v0.2.2**, *16 Dec 2014*
