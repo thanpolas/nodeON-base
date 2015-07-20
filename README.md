@@ -51,6 +51,8 @@ Constructors and methods exposed:
 
 ## Release History
 
+- **v0.3.2**, *20 Jul 2015*
+    - Tweak error reporting on error interceptor.
 - **v0.3.1**, *02 Jun 2015*
     - Fixed [ipv6 to ipv4 conversion issue](https://github.com/joyent/node/issues/9195) returning addresses of "::ffff:127.0.0.1".
 - **v0.3.0**, *21 Apr 2015*
