@@ -1,6 +1,6 @@
 {
   "name": "nodeon-base",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "main": "./lib/lib",
   "description": "The nodeON Base modules to inherit from.",
   "homepage": "https://github.com/thanpolas/nodeON-base",
