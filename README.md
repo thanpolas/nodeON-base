@@ -51,6 +51,8 @@ Constructors and methods exposed:
 
 ## Release History
 
+- **v0.3.3**, *17 Aug 2015*
+    - Upgraded all packages to latest.
 - **v0.3.2**, *20 Jul 2015*
     - Tweak error reporting on error interceptor.
 - **v0.3.1**, *02 Jun 2015*
