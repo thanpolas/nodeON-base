@@ -51,6 +51,8 @@ Constructors and methods exposed:
 
 ## Release History
 
+- **v1.0.1**, *16 Jan 2016*
+    - Settled with production deps, they are now all moved to dev.
 - **v1.0.0**, *16 Jan 2016*
     - Upgraded all packages to latest.
 - **v0.3.3**, *17 Aug 2015*
