@@ -51,6 +51,8 @@ Constructors and methods exposed:
 
 ## Release History
 
+- **v1.0.0**, *16 Jan 2016*
+    - Upgraded all packages to latest.
 - **v0.3.3**, *17 Aug 2015*
     - Upgraded all packages to latest.
 - **v0.3.2**, *20 Jul 2015*
