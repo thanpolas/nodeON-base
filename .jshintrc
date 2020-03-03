@@ -66,8 +66,8 @@
   // Suppress warnings about == null comparisons.
   "eqnull": true,
 
-  // Prohibit use of a variable before it is defined.
-  "latedef": true,
+  // Allow use of a variable before it is defined.
+  "latedef": false,
 
   // Require capitalized names for constructor functions.
   "newcap": true,

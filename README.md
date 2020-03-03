@@ -51,6 +51,8 @@ Constructors and methods exposed:
 
 ## Release History
 
+- **v1.0.3**, *03 Mar 2018*
+    - Updated all dependencies to latest.
 - **v1.0.2**, *29 Nov 2016*
     - Fixed duplication error, thank you [@sirodoht](https://github.com/sirodoht).
 - **v1.0.1**, *16 Jan 2016*
