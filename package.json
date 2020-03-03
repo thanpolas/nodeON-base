@@ -23,13 +23,13 @@
     "test": "./node_modules/.bin/grunt jshint:lib && ./node_modules/.bin/mocha -b test/spec -u bdd  -R spec"
   },
   "dependencies": {
-    "cip": "1.0.1",
     "bluebird": "3.7.2",
+    "cip": "1.0.1",
     "lodash": "4.17.15",
+    "logg": "0.3.4",
+    "node-entity": "^0.6.0",
     "nodeon-error": "0.2.1",
-    "node-entity": "0.5.6",
-    "redis": "3.0.2",
-    "logg": "0.3.4"
+    "redis": "3.0.2"
   },
   "devDependencies": {
     "grunt-release": "~0.14.0",
